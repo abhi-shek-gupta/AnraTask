@@ -1,0 +1,27 @@
+body{
+    background-color: #eceeef;
+    }
+   input.ng-invalid.ng-touched {
+       border: 2px solid red;
+       
+   }
+
+   textarea.ng-invalid.ng-touched {
+       border: 2px solid red;
+       
+   }
+
+   .center { 
+    height:500px;
+    position: relative;
+    /* border: 3px solid green;  */
+}
+
+.center h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
